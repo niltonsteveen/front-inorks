@@ -1,0 +1,155 @@
+@media(min-width:768px) {
+  .navbar-default {
+    padding: 19.5px 0;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+    .navbar-default.affix {
+    padding: 0;
+    height: 75px;
+    opacity: 0.85;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+
+  ul{
+    position: absolute; top: 50%; right: 0; margin: -2% 0 0 -25%;
+  }
+
+
+img{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 100px;
+  }
+
+ul.affix{
+  margin: 1% 0 0 -25%;
+}
+
+    img.affix{
+      margin-top: 10px;
+    width: 89px;
+    height: 45px; 
+  }
+
+  
+}
+
+h4{
+  font-size: 22px;
+  color: rgb(241,241,241);
+  font-family: Lato, sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+h4.myHfour{
+  font-size: 22px;
+  color: rgb(227,227,227);
+  font-family: Lato, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+h2{
+  font-size: 43px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgb(91,123,145);
+  font-weight: 400;
+  font-family: 'Patua One', cursive;
+}
+
+p{
+  padding-top: 10px;
+  font-size: 16px;
+  color: rgb(158,158,158);
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+#mainNav{
+  /*padding: 1.016% 0;*/
+  background-color: #111111;
+  border-color: #111111;
+}
+
+.myCollapse{
+  position: relative;
+}
+
+.title-st{
+  color: #ffffff; 
+  font-size: 60px; 
+  font-weight: 400; 
+  font-family: 'Patua One', cursive;
+}
+
+.btn-inorks{
+  background-color: rgb(99, 134, 157); 
+  color: #ffffff; 
+  border-radius: 0px; 
+  font-size: 14px; 
+  font-weight: 700; 
+  font-family: 'Lato', sans-serif; 
+  width: 156px; 
+  height: 47px;
+}
+
+.black-sect{
+  width: 100%; 
+  background-color: rgb(0,0,0);
+}
+
+.margin-df{
+  margin-top: 35px;
+}
+
+.dm-t-b-grey{
+  padding: 80px 0;
+}
+
+.grey-sect{
+  width: 100%; 
+  background-color: #111111;
+}
+
+.ul-style-font{
+  color: #ffffff !important; 
+  font-weight: 400; 
+  font-family: Lato, sans-serif; 
+  font-size: 16px;
+}
+
+.ul-style-font:hover{
+  color: rgb(111,150,175);
+}
+
+.header{
+  top: 0;
+  width: 100%;
+  height: 707px;
+  padding: 13% 0;
+  background: url('/assets/images/switch-iloveimg-cropped.png')bottom left no-repeat;
+}
+
+.jumbotron-content {
+  padding: 5% 0;
+}
+
+.myImg{
+  border-radius: 50%; width: 223px; height: 223px; margin-bottom: 20px;
+}
+
+.footer {
+    padding:30px 0;
+    font-size: 16px;
+    width: 100%;
+    background-color: rgb(17,17,17);
+    color: white;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-weight:900;
+}
